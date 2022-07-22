@@ -7,8 +7,7 @@ public class Max_Min_Char
       Scanner e=new Scanner(System.in);
     System.out.println("Enter any string");
         String str = e.nextLine();
-        int[] freq = new int[str.length()];  
-         
+        
         int i, j, max;          
           
           
