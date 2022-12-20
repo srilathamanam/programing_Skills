@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <servlet>
+  <servlet-name>Adding</servlet-name>
+  <servlet-class>servletexample.Addition.Addtion_Servlet1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Adding
+  </servlet-name>
+  <url-pattern>/add</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>Adding_Post</servlet-name>
+  <servlet-class>servletexample.additon.Addition_Servlet2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Adding_Post</servlet-name>
+  <url-pattern>/add2</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>AddingRequestDispatcher</servlet-name>
+  <servlet-class>servletexample.additon.AddRequestDispatcher</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>AddingRequestDispatcher</servlet-name>
+  <url-pattern>/RDExample</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>SquareNumber</servlet-name>
+  <servlet-class>servletexamle.square.suqareNo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>SquareNumber</servlet-name>
+  <url-pattern>/squrefun</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet>
+  <servlet-name>SquareNumberSenRD</servlet-name>
+  <servlet-class>servletexample.square.SquareSecond</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>SquareNumberSenRD</servlet-name>
+  <url-pattern>/sqno</url-pattern>
+  </servlet-mapping>
+  
+ <servlet>
+      <servlet-name>configexamle</servlet-name>
+      <servlet-class>servletexample.servletconfigexample.ServletConfigExamle</servlet-class>
+      <init-param>
+            <param-name>email</param-name>
+            <param-value>abc@gmail.com</param-value>
+      </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>configexamle</servlet-name>
+        <url-pattern>/check</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+   <servlet>
+        <servlet-name>Validate_user</servlet-name>
+        <servlet-class>serveletexample.SessionExample.HTTpSessionExample</servlet-class>
+    </servlet>
+   
+    <servlet-mapping>
+        <servlet-name>Validate_user</servlet-name>
+        <url-pattern>/Validate</url-pattern>
+    </servlet-mapping>
+    <servlet>
+     <servlet-name>validate2</servlet-name>
+        <servlet-class>serveletexample.SessionExample.welcome</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>validate2</servlet-name>
+        <url-pattern>/welcome</url-pattern>
+    </servlet-mapping>
+</web-app>
