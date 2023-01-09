@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="5.0">
+  <display-name>Servlet_Programs</display-name>
+  <servlet>
+    <description></description>
+    <display-name>Helloworld</display-name>
+    <servlet-name>Helloworld</servlet-name>
+    <servlet-class>DispalyExample.Helloworld</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Helloworld</servlet-name>
+    <url-pattern>/Helloworld</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Addition</display-name>
+    <servlet-name>Addition</servlet-name>
+    <servlet-class>DisplayExample.Addition</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Addition</servlet-name>
+    <url-pattern>/Addition</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Add_Example</display-name>
+    <servlet-name>second</servlet-name>
+    <servlet-class>Addition.Add_Example</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>second</servlet-name>
+    <url-pattern>/addexample</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>student_insert</display-name>
+    <servlet-name>third</servlet-name>
+    <servlet-class>student.student_insert</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>third</servlet-name>
+    <url-pattern>/student_operation</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
