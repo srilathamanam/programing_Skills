@@ -1,0 +1,36 @@
+Write the algorithm to find given number is divisible by an even number;
+
+Begin
+Step 1: Read any two numbers x,y;
+Step 2: if(y%2==0)    // this is verifies wheahter y is even or not
+	{
+	   if(x%y==0)
+		print("given number is divibile by even number");
+	   else 
+		print("given number is not divibile by even number");
+	}
+	 else print("divisor is not a  even number");
+end;
+
+
+Write the algorithm to find sum of first natural numbers
+1+2+3+4.....+n 
+
+Start
+Step 1: s=0,i=1,  Read any number say n
+Step 2: While(i<=n)
+	{
+	    s=s+i;   
+	    i=i+1;
+	}
+Step 3: Display s;
+End
+
+Write the algorithm to find sum of the digits of a given number
+
+
+Write the algorithm to find the reverse of a given number
+
+
+
+
